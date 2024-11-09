@@ -42,10 +42,11 @@ floor = num_one // num_two
 print('Expo is ', floor)
 
 #area of a circle
-radius=input('Enter the radius: ')
+radius=input('Enter the radius:')
+radu = float(radius)
 pi=3.14
-area_of_circle=pi*radius*radius
+area_of_circle=pi*radu
 print('the area of a circle is ',float(area_of_circle))
 
-circum_of_circle = 2*pi*radius
+circum_of_circle = 2*pi*radu
 print('circumfrence of a circle is ', circum_of_circle)
