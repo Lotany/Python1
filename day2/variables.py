@@ -16,3 +16,8 @@ print(type(first_name))
 print(type(last_name))
 print(type(age))
 print(type(is_true))
+
+print(len(first_name))
+print(len(is_Married))
+print(len(is_light))
+print(len(is_light))
