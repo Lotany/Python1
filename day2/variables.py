@@ -21,3 +21,31 @@ print(len(first_name))
 print(len(is_Married))
 print(len(is_light))
 print(len(is_light))
+
+print('The length of the first name is: ', len(first_name),'while the length of the second name is: ',len(last_name))
+
+num_one =5
+num_two = 4
+total = sum([num_one,num_two])
+print(total)
+diff = num_two - num_one
+print(diff)
+product = num_one * num_two
+print(product)
+division = num_one/num_two
+print(int(division))
+modulus = num_two % num_one
+print('remainder is:',modulus)
+expo = num_one**num_two
+print('Expo is ;',expo)
+floor = num_one // num_two
+print('Expo is ', floor)
+
+#area of a circle
+radius=input('Enter the radius: ')
+pi=3.14
+area_of_circle=pi*radius*radius
+print('the area of a circle is ',float(area_of_circle))
+
+circum_of_circle = 2*pi*radius
+print('circumfrence of a circle is ', circum_of_circle)
