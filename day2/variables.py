@@ -12,3 +12,7 @@ is_light = "yellow"
 
 blue_Color, Pink_Color, Red_Color ="Yes"
 
+print(type(first_name))
+print(type(last_name))
+print(type(age))
+print(type(is_true))
