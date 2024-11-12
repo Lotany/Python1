@@ -42,6 +42,21 @@ print("*******")
 print (num1)
 
 #count method
-fruits = ['banana','banana','Orange','Mango','lemon']
+fruits = ['banana','Orange','Mango','lemon']
 counter =fruits.count('banana')
 print(counter)
+
+#finding index of an item
+halal=fruits.index('banana')
+print(halal)
+
+#reversing the order of a list
+fruits.reverse()
+print(fruits)
+
+#sorting list items
+fruits.sort()
+print('###########')
+print(fruits)
+fruits.sort(reverse=True)
+print(fruits)
