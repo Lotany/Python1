@@ -24,3 +24,12 @@ print(prog_languages)
 print("*************************")
 front_end.extend(back_end)
 print(front_end)
+
+ages =[19,22,19,24,20,25,26,24,25,24]
+ages.sort()
+print(ages)
+print('*************')
+print(ages)
+min_Age = min(ages)
+max_age = max(ages)
+print('The  mean and max age include : ', min_Age, max_age)
