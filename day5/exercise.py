@@ -33,3 +33,12 @@ print(ages)
 min_Age = min(ages)
 max_age = max(ages)
 print('The  mean and max age include : ', min_Age, max_age)
+n =len(ages)
+ages.sort()
+if n % 2 == 0:
+    median1 = ages[n//2]
+    median2 = ages[n//2 -1]
+    median = (median1+median2)/2
+else:
+    median = n[n//2]
+print("Median is: " + str(median))
