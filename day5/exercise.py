@@ -17,3 +17,10 @@ it_companies.append('Microsoft')
 print(it_companies)
 it_companies.insert(4,'Microsoft')
 print(it_companies)
+front_end =['HTML', 'CSS', 'JS', 'REACT', 'REDUX']
+back_end= ['Node', 'Express', 'MongoDB']
+prog_languages = front_end + back_end
+print(prog_languages)
+print("*************************")
+front_end.extend(back_end)
+print(front_end)
