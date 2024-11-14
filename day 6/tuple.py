@@ -32,3 +32,27 @@ lst = list(fruits)
 lst.append("Kiwi")
 tp = tuple(lst)
 print(tp)
+
+#checking item in a tuple
+'''
+onfirm = 'orange' in fruits
+oranges =10
+if onfirm == True:
+    print("how many oranges do you want?")
+    get_oranges = int(input(" Enter the number of oranges : "))
+    if get_oranges > 10:
+        print('Out of oder, Kindly wait for the next season')
+    else:
+        print('Congatulation your order of', get_oranges, 'has been deliverd')
+else:
+    print("We are sad to know that you havent purchased any fruits, Thank you")
+'''
+#joining a tuple
+tp1 =('item1','item2','item3')
+tpl2 =('item4','item5','item6')
+tpl3 =tpl+tpl2
+print(tpl3)
+
+#deleting a tuple 
+'''del tpl3
+print(tpl3)'''
