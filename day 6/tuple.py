@@ -25,3 +25,10 @@ print(first_fruit)
 
 ferit = fruits[-3]
 print(ferit)
+
+
+#changing tuple to lists
+lst = list(fruits)
+lst.append("Kiwi")
+tp = tuple(lst)
+print(tp)
