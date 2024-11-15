@@ -43,3 +43,18 @@ print(fruits.union(vegetables))
 fruits.update(vegetables)
 print("****************")
 print(fruits)
+
+#finding intersection items
+whole_numbers = {0,1,2,3,4,5,6,7,8,9,10}
+even_Numbers ={0,2,4,6,8,10}
+print(whole_numbers.intersection(even_Numbers))
+
+python = {'p','y','t','h','o','n'}
+dragon = {'d','r','a','g','o','n'}
+print(python.intersection(dragon))
+
+print(whole_numbers.issubset(even_Numbers))
+
+print(whole_numbers.issuperset(even_Numbers))
+
+print(whole_numbers.difference(even_Numbers))
