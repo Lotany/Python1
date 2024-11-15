@@ -44,4 +44,5 @@ print(does_exist)
 
 fruits=['banana', 'orange', 'mango','lemon','lime','apple']
 mendy =fruits.append('kilifi')
+kilif- = 
 print(mendy)
