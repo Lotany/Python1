@@ -28,5 +28,18 @@ print(fruits)
 print(fruits)'''
 
 #deleting a set
-del fruits
+'''del fruits
+print(fruits)'''
+
+#converting list to set
+fruits = ['banana', 'orange', 'mango', 'lemon','orange', 'banana']
+fruits = set(fruits) # {'mango', 'lemon', 'banana', 'orange'}
+
+#joining sets
+fruits ={'banana','oramge', 'mango', 'lemon'}
+vegetables = { 'tomato','spinach','cabbage'}
+print(fruits.union(vegetables))
+
+fruits.update(vegetables)
+print("****************")
 print(fruits)
