@@ -58,3 +58,13 @@ print(whole_numbers.issubset(even_Numbers))
 print(whole_numbers.issuperset(even_Numbers))
 
 print(whole_numbers.difference(even_Numbers))
+
+#finding the symetric dirrefence
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+some_numbers = {1, 2, 3, 4, 5}
+print(whole_numbers.symmetric_difference(some_numbers))
+
+#joint or disjint sets
+even_numbers1 = {0,9, 2, 4 ,6, 8}
+odd_numbers2 = {1, 3, 5, 7, 9}
+print(even_numbers1.isdisjoint(odd_numbers2))
