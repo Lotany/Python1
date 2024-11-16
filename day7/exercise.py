@@ -10,3 +10,17 @@ it_companies.update(['Apple','Binge'])
 
 it_companies.remove('Facebook')
 print(it_companies)
+print (A.union(B))
+print(A.intersection(B))
+print(A.issubset(B))
+print(A.isdisjoint(B))
+print(B.union(A))
+print(A.symmetric_difference(B))
+
+new_ap =set(age)
+hamza = len(new_ap)
+jomza = len(age)
+if hamza > jomza:
+    print('Set is bigger')
+else:
+    print('List is bigger')
