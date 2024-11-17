@@ -5,4 +5,13 @@ person['Job_tile'] = 'Sales_DSR'
 print(len(person))
 
 person['skills'].append('Java')
+
+print('first_name' in person)
+print(person.pop('first_name'))
+print(person.popitem())
+del person['is_married']
 print(person)
+print(person.items())
+#print(person.clear())
+keyla =person.keys()
+print(keyla)
