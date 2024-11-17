@@ -54,3 +54,31 @@ print(st)
 
 lst =list(range(0,20,3))
 print(lst)
+
+#nested loop
+person = {
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+}
+
+for key in person:
+    if key =='skills':
+        for skill in person['skills']:
+            print(skill)
+#for else
+for number in range(11):
+    print(number)
+else:
+    print('The loop stops at',number)
+
+
+for num in range(6):
+    pass
