@@ -1,3 +1,4 @@
+import sys
 def add_two_numbers(num1,num2):
     sum = num1 + num2
     return sum
@@ -27,11 +28,38 @@ print('Farrent is: ',convert_temp(10))
 
 def check_season(month):
     if month == "september" or "october" or "november":
-        return print("The season is Autum")
-    elif month =="december" or "january" or "february":
-        print("the season is Winter")
-    elif month =="march" or "april" or "may":
-        print("the season is Spring")
-    elif month=="june" or "july" or "august":
-        print("The season is Summer")
-print(check_season("september"))
+        print("The season is Autum")
+        return
+print(check_season("october"))
+
+# Python program for slope of line 
+def slope(x1, y1, x2, y2): 
+    if(x2 - x1 != 0): 
+      return (float)(y2-y1)/(x2-x1) 
+    return sys.maxint 
+  
+  
+# driver code 
+x1 = 4
+y1 = 2
+x2 = 2
+y2 = 5
+print ("Slope is:", slope(x1, y1, x2, y2))
+
+
+# function print_list
+# accepts a list as parameter
+def print_list(input_list):
+    # for loop to access each element 
+    for each_item in input_list:
+        # print 
+        print(each_item)
+
+
+def reverse_list(arr):
+    result = []
+    
+    for i, _ in enumerate(arr):    # try to use enumerate - it's better in most cases
+        result.append(arr[~i])     # use the backward indexing here
+        
+    return result
