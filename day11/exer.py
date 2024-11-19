@@ -12,7 +12,7 @@ print(area_circle(4))
 def add_all_numbers(*args):
     sum = 0
     for arg in args:
-        int(sum) +=arg
+        sum +=arg
         if int(sum) == True:
             print("Its an integer")
         else:
