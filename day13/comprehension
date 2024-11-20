@@ -1,0 +1,16 @@
+language = 'PYTHON'
+lst = list(language)
+print(lst)
+
+#using the list comprehension
+risto = [i for i in language]
+print("**********")
+print(risto)
+
+#generate random number using list comprehension
+randomu = [i for i in range(20)]
+print(randomu)
+
+#generate random squares
+square = [i *i for i in range(20)]
+print(square)
