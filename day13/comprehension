@@ -14,3 +14,17 @@ print(randomu)
 #generate random squares
 square = [i *i for i in range(20)]
 print(square)
+
+tot = lambda a,b:a/b
+print(tot(2,2))
+
+def power(x):
+    return lambda n: x**n
+cube = power(2)(3)
+print(cube)
+two_power_of_five =power(2)(5)
+print(two_power_of_five)
+
+numbers =[-4, -3, -2, -1 ,0, 2, 3, 4, 5]
+filtered = [i for i in numbers if  i < 0]
+print(filtered)
