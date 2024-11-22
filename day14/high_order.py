@@ -80,3 +80,17 @@ def display_info(name, age):
 
 display_info('Kalam', 83)  
 display()
+
+
+
+
+def my_fam(function):
+    def wrapper(brother,age,work):
+        function(brother,age,work)
+        print('My brother is called {}, he is {} years old and works at {}'.format(brother,age,work))
+    return wrapper
+
+@my_fam
+def display(brother,age,work):
+    print('Hello')
+display('Tony','20','kenyapower')
