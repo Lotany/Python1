@@ -56,8 +56,27 @@ def decorator_function(func):
         return func()
     return warapper_funtion
 
+@decorator_function
+def display():
+    print('The display function was called')
+display()
+
+import functools
+
+def decoratorFunction(func):
+    @functools.wraps(func)
+    def wrapperFunction(*args, **kwargs):
+        print('Wrapper executed before {}'.format(func.__name__))
+        return func(*args, **kwargs)
+    return wrapperFunction
+
+@decoratorFunction
 def display():
     print('The display function was called')
 
-decorated_display = decorator_function(display)
-decorated_display()
+@decoratorFunction
+def display_info(name, age):
+    print('display_info was called with ({}, {})'.format(name, age))
+
+display_info('Kalam', 83)  
+display()
