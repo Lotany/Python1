@@ -51,3 +51,13 @@ def greeting():
     return 'Welcome to python'
 print(greeting())
 
+def decorator_function(func):
+    def warapper_funtion():
+        return func()
+    return warapper_funtion
+
+def display():
+    print('The display function was called')
+
+decorated_display = decorator_function(display)
+decorated_display()
