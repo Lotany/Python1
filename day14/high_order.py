@@ -94,3 +94,31 @@ def my_fam(function):
 def display(brother,age,work):
     print('Hello')
 display('Tony','20','kenyapower')
+
+
+
+#map function
+numbers =[1,2,3,4,5,6]
+def square(x):
+    return x**2
+numbers_squared = map(square, numbers)
+print(list(numbers_squared))
+
+#map function using lambda
+numbers_squared = map(lambda x : x**2, numbers)
+print(list(numbers_squared))
+
+names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+
+def change_to_upper(name):
+    return name.upper()
+
+names_upper_cased = map(change_to_upper, names)
+print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+
+# Let us apply it with a lambda function
+names_upper_cased = map(lambda name: name.upper(), names)
+print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+def change_to_upper(name):
+    return name.upper()
+names_upper_cased = map(change_to_upper, names)
