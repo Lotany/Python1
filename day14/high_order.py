@@ -145,3 +145,25 @@ try:
     print(result)
 except:
     print("Something went wrong")
+
+
+""""
+try:
+    name =input('Enter your name')
+    year_born = input('year your born')
+    age =2024 -year_born
+    print(f'Your name is {name}. And you are {age} years old')
+except Exception as e:
+    print(e) """
+def sum(a,b,c,d,e,g,y):
+    return a+b+c+d+e+g+y 
+
+lst = [1,2,3,4,5,67,8]
+print(sum(*lst))
+
+def sum(*args):
+    s=0
+    for i in args:
+        s +=1
+    return s
+print(sum(1,2,3))
