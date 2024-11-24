@@ -122,3 +122,26 @@ print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 def change_to_upper(name):
     return name.upper()
 names_upper_cased = map(change_to_upper, names)
+
+from datetime import datetime
+now = datetime.now()
+print(now)
+day =now.day
+month =now.month
+year =now.year
+hour = now.hour
+minute =now.minute
+second =now.second
+timestap =now.timestamp()
+print(day,month, year, hour, minute)
+print('timestap', timestap)
+print(f'{day}/{month}/{year}, {hour}:{minute}')
+
+
+var =10
+var1 ='5'
+try:
+    result = var + var1
+    print(result)
+except:
+    print("Something went wrong")
