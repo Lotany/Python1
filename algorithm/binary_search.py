@@ -17,9 +17,6 @@ def verify(index):
         print("Target found at index", index)
     else:
         print("Target not found")
-numbers =[1,2,3,4,56,7,8,9,10]
+numbers =[1,2,3,4,5,6,7,8,9,10]
 result =binary_search(numbers,12)
-verify(result)
-
-result =binary_search(numbers,3)
 verify(result)
