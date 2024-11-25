@@ -1,3 +1,3 @@
 the default text opener
 this is the second line
-this is the third lineThis text has to be appendedThis text has to be appendedThis text has to be appended
+this is the third lineThis text has to be appendedThis text has to be appendedThis text has to be appendedThis text has to be appendedThis text has to be appendedThis text has to be appended
