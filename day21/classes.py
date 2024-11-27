@@ -17,13 +17,20 @@ class Person:
         self.firstname=firstname
         self.lastname =lastname
         self.residence=residence
+        self.skills =[]
 
     def more_Details(self):
         s='My name is, '
         m = ' I am from '
         p = print(s,self.firstname,self.lastname,m,self.residence)
         return p
-    
-p =Person('Lotan','Kilinda','Mombasa')
+    def adds_skill(self,skill):
+        self.skills.append(skill)
+p =Person()
 print(p.more_Details())
-        
+p.adds_skill('HTML')
+p.adds_skill('CSS')
+p.adds_skill('JAVASCRIPT')
+p1 =Person('Lotan','Kilinda','Mombasa')
+print(p1.more_Details())
+print(p.skills)
