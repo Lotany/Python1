@@ -7,11 +7,12 @@ def run():
     else:
         print('Reject reject')
 def count():
-    no =10
+    no =100
     while no<=10:
         no +=1
         print(no)
 run()
 count()
+print('Hello this is the program running, Thank you')
 
 
