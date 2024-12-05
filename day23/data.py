@@ -4,3 +4,10 @@ lis =[]
 var1 = lis.insert(0,2)
 
 print(lis)
+
+#PYHTON PROGRAM TO DEAL WITH CARADS
+card =[]
+deck =[]
+
+def checkCard(cards):
+    
