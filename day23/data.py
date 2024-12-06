@@ -10,4 +10,16 @@ card =[]
 deck =[]
 
 def checkCard(cards):
-    
+    return
+
+def delCard(name):
+    return
+
+def spinCard():
+    return
+
+def alterCard():
+    return
+nam ='lotan'
+lasr ='Kilinda'
+print(nam+lasr)
