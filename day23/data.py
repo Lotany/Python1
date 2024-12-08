@@ -10,9 +10,13 @@ card =[]
 deck =[]
 
 def checkCard(cards):
+    name = 'Lotan'
+    if name == 'Tanuy':
+        print('Logging out...!')
     return
 
 def delCard(name):
+    print("Hello")
     return
 
 def spinCard():
@@ -23,3 +27,6 @@ def alterCard():
 nam ='lotan'
 lasr ='Kilinda'
 print(nam+lasr)
+name =input("Enter name..")
+if name =="lot":
+    print(name)
